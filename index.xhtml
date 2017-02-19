@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Login</title>
+    </h:head>
+    <h:body>
+        <h4>Enter Login Information Below:</h4>
+        <form method="post" action="Assignment6Servlet">
+            Username: <h:inputText id="username" value="#{Assignment6Bean.username}"/><br/>
+            Password <h:inputText id="password" value="#{Assignment6Bean.password}"/><br/>
+            <h:commandButton id="submit" value="submit" action="response" />
+       </form>
+       
+    </h:body>
+</html>
+
